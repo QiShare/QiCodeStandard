@@ -2,7 +2,7 @@
 //  QiMineViewController.m
 //  QiCodeStandard
 //
-//  Created by liusiqi on 2018/8/2.
+//  Created by QiShare on 2018/8/2.
 //  Copyright © 2018年 QiShare. All rights reserved.
 //
 
@@ -121,7 +121,7 @@ static NSString *mineCellId = @"mineCellId";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     
-    return 50.0;
+    return CGFLOAT_MIN;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
@@ -136,7 +136,7 @@ static NSString *mineCellId = @"mineCellId";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSLog(@"QiShare提醒您，您点击了%ld个cell",(long)indexPath.row);
+    NSLog(@"QiShare提醒您，您点的cell的index为%li", (long)indexPath.row);
 }
 
 @end

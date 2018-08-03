@@ -2,11 +2,17 @@
 //  QiMineData.h
 //  QiCodeStandard
 //
-//  Created by liusiqi on 2018/8/2.
+//  Created by QiShare on 2018/8/2.
 //  Copyright © 2018年 QiShare. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+
+typedef NS_ENUM(NSUInteger, QiMineDataType) {
+    QiMineDataTypeDefault,
+    QiMineDataTypeOne,
+    QiMineDataTypeTwo,
+};
 
 @interface QiMineData : NSObject
 
