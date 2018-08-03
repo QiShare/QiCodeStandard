@@ -18,6 +18,7 @@ typedef NS_ENUM(NSUInteger, QiMineDataType) {
 
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *detail;
+@property (nonatomic, assign) QiMineDataType type;
 
 - (instancetype)initWithDic:(NSDictionary *)dic;
 
