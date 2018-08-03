@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1C75EAB2112F10500560C55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C75EAA2112F10500560C55 /* AppDelegate.m */; };
+		F1C75EB32112F10600560C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C75EB22112F10600560C55 /* Assets.xcassets */; };
+		F1C75EB92112F10600560C55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C75EB82112F10600560C55 /* main.m */; };
+		F1C75EED21130A6C00560C55 /* QiBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C75EEC21130A6C00560C55 /* QiBaseViewController.m */; };
+		F1C75EF021130A8B00560C55 /* QiMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C75EEF21130A8B00560C55 /* QiMineViewController.m */; };
+		F1C75EF321130B2A00560C55 /* QiMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C75EF221130B2A00560C55 /* QiMineCell.m */; };
+		F1C75EF621130B5600560C55 /* QiMineData.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C75EF521130B5600560C55 /* QiMineData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C75EBF2112F10600560C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C75E9E2112F10500560C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C75EA52112F10500560C55;
+			remoteInfo = QiCodeStandard;
+		};
+		F1C75ECA2112F10700560C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C75E9E2112F10500560C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C75EA52112F10500560C55;
+			remoteInfo = QiCodeStandard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1C75EA62112F10500560C55 /* QiCodeStandard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiCodeStandard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C75EA92112F10500560C55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1C75EAA2112F10500560C55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1C75EB22112F10600560C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C75EB72112F10600560C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C75EB82112F10600560C55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1C75EBE2112F10600560C55 /* QiCodeStandardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiCodeStandardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C75EC92112F10700560C55 /* QiCodeStandardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiCodeStandardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C75EE12112F28600560C55 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F1C75EEB21130A6C00560C55 /* QiBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiBaseViewController.h; sourceTree = "<group>"; };
+		F1C75EEC21130A6C00560C55 /* QiBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiBaseViewController.m; sourceTree = "<group>"; };
+		F1C75EEE21130A8B00560C55 /* QiMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiMineViewController.h; sourceTree = "<group>"; };
+		F1C75EEF21130A8B00560C55 /* QiMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiMineViewController.m; sourceTree = "<group>"; };
+		F1C75EF121130B2A00560C55 /* QiMineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiMineCell.h; sourceTree = "<group>"; };
+		F1C75EF221130B2A00560C55 /* QiMineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiMineCell.m; sourceTree = "<group>"; };
+		F1C75EF421130B5600560C55 /* QiMineData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiMineData.h; sourceTree = "<group>"; };
+		F1C75EF521130B5600560C55 /* QiMineData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiMineData.m; sourceTree = "<group>"; };
+		F1C75EFA211315F700560C55 /* QiMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiMacros.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C75EA32112F10500560C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C75EBB2112F10600560C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C75EC62112F10700560C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1C75E9D2112F10500560C55 = {
+			isa = PBXGroup;
+			children = (
+				F1C75EA82112F10500560C55 /* QiCodeStandard */,
+				F1C75EA72112F10500560C55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C75EA72112F10500560C55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C75EA62112F10500560C55 /* QiCodeStandard.app */,
+				F1C75EBE2112F10600560C55 /* QiCodeStandardTests.xctest */,
+				F1C75EC92112F10700560C55 /* QiCodeStandardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C75EA82112F10500560C55 /* QiCodeStandard */ = {
+			isa = PBXGroup;
+			children = (
+				F1C75EA92112F10500560C55 /* AppDelegate.h */,
+				F1C75EAA2112F10500560C55 /* AppDelegate.m */,
+				F1C75EDB2112F12300560C55 /* Main */,
+				F1C75EDC2112F14900560C55 /* Managers */,
+				F1C75EDD2112F15600560C55 /* Networks */,
+				F1C75EDE2112F15E00560C55 /* Vendors */,
+				F1C75EDF2112F16D00560C55 /* Macros */,
+				F1C75EE02112F17B00560C55 /* Utils */,
+				F1C75EB22112F10600560C55 /* Assets.xcassets */,
+				F1C75EB72112F10600560C55 /* Info.plist */,
+				F1C75EE12112F28600560C55 /* PrefixHeader.pch */,
+				F1C75EB82112F10600560C55 /* main.m */,
+			);
+			path = QiCodeStandard;
+			sourceTree = "<group>";
+		};
+		F1C75EDB2112F12300560C55 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F1C75EE22112F31000560C55 /* Base */,
+				F1C75EE32112F31900560C55 /* Login */,
+				F1C75EE52112F32900560C55 /* Module1 */,
+				F1C75EE62112F35E00560C55 /* Module2 */,
+				F1C75EE72112F39100560C55 /* Module3 */,
+				F1C75EE42112F31F00560C55 /* Mine */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F1C75EDC2112F14900560C55 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F1C75EDD2112F15600560C55 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		F1C75EDE2112F15E00560C55 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		F1C75EDF2112F16D00560C55 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				F1C75EFA211315F700560C55 /* QiMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		F1C75EE02112F17B00560C55 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F1C75EE22112F31000560C55 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F1C75EEB21130A6C00560C55 /* QiBaseViewController.h */,
+				F1C75EEC21130A6C00560C55 /* QiBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F1C75EE32112F31900560C55 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F1C75EE42112F31F00560C55 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F1C75EF921130B6900560C55 /* Model */,
+				F1C75EF821130B6200560C55 /* View */,
+				F1C75EF721130B5B00560C55 /* Controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F1C75EE52112F32900560C55 /* Module1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module1;
+			sourceTree = "<group>";
+		};
+		F1C75EE62112F35E00560C55 /* Module2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module2;
+			sourceTree = "<group>";
+		};
+		F1C75EE72112F39100560C55 /* Module3 */ = {
+			isa = PBXGroup;
+			children = (
+				F1C75EEA2112F47A00560C55 /* Model */,
+				F1C75EE92112F40D00560C55 /* View */,
+				F1C75EE82112F3F900560C55 /* Controller */,
+			);
+			path = Module3;
+			sourceTree = "<group>";
+		};
+		F1C75EE82112F3F900560C55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F1C75EE92112F40D00560C55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1C75EEA2112F47A00560C55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1C75EF721130B5B00560C55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1C75EEE21130A8B00560C55 /* QiMineViewController.h */,
+				F1C75EEF21130A8B00560C55 /* QiMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F1C75EF821130B6200560C55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1C75EF121130B2A00560C55 /* QiMineCell.h */,
+				F1C75EF221130B2A00560C55 /* QiMineCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1C75EF921130B6900560C55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1C75EF421130B5600560C55 /* QiMineData.h */,
+				F1C75EF521130B5600560C55 /* QiMineData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C75EA52112F10500560C55 /* QiCodeStandard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C75ED22112F10700560C55 /* Build configuration list for PBXNativeTarget "QiCodeStandard" */;
+			buildPhases = (
+				F1C75EA22112F10500560C55 /* Sources */,
+				F1C75EA32112F10500560C55 /* Frameworks */,
+				F1C75EA42112F10500560C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiCodeStandard;
+			productName = QiCodeStandard;
+			productReference = F1C75EA62112F10500560C55 /* QiCodeStandard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1C75EBD2112F10600560C55 /* QiCodeStandardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C75ED52112F10700560C55 /* Build configuration list for PBXNativeTarget "QiCodeStandardTests" */;
+			buildPhases = (
+				F1C75EBA2112F10600560C55 /* Sources */,
+				F1C75EBB2112F10600560C55 /* Frameworks */,
+				F1C75EBC2112F10600560C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C75EC02112F10600560C55 /* PBXTargetDependency */,
+			);
+			name = QiCodeStandardTests;
+			productName = QiCodeStandardTests;
+			productReference = F1C75EBE2112F10600560C55 /* QiCodeStandardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1C75EC82112F10700560C55 /* QiCodeStandardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C75ED82112F10700560C55 /* Build configuration list for PBXNativeTarget "QiCodeStandardUITests" */;
+			buildPhases = (
+				F1C75EC52112F10700560C55 /* Sources */,
+				F1C75EC62112F10700560C55 /* Frameworks */,
+				F1C75EC72112F10700560C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C75ECB2112F10700560C55 /* PBXTargetDependency */,
+			);
+			name = QiCodeStandardUITests;
+			productName = QiCodeStandardUITests;
+			productReference = F1C75EC92112F10700560C55 /* QiCodeStandardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C75E9E2112F10500560C55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = QiShare;
+				TargetAttributes = {
+					F1C75EA52112F10500560C55 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F1C75EBD2112F10600560C55 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F1C75EA52112F10500560C55;
+					};
+					F1C75EC82112F10700560C55 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F1C75EA52112F10500560C55;
+					};
+				};
+			};
+			buildConfigurationList = F1C75EA12112F10500560C55 /* Build configuration list for PBXProject "QiCodeStandard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C75E9D2112F10500560C55;
+			productRefGroup = F1C75EA72112F10500560C55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C75EA52112F10500560C55 /* QiCodeStandard */,
+				F1C75EBD2112F10600560C55 /* QiCodeStandardTests */,
+				F1C75EC82112F10700560C55 /* QiCodeStandardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C75EA42112F10500560C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C75EB32112F10600560C55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C75EBC2112F10600560C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C75EC72112F10700560C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C75EA22112F10500560C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C75EB92112F10600560C55 /* main.m in Sources */,
+				F1C75EAB2112F10500560C55 /* AppDelegate.m in Sources */,
+				F1C75EED21130A6C00560C55 /* QiBaseViewController.m in Sources */,
+				F1C75EF321130B2A00560C55 /* QiMineCell.m in Sources */,
+				F1C75EF621130B5600560C55 /* QiMineData.m in Sources */,
+				F1C75EF021130A8B00560C55 /* QiMineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C75EBA2112F10600560C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C75EC52112F10700560C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C75EC02112F10600560C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C75EA52112F10500560C55 /* QiCodeStandard */;
+			targetProxy = F1C75EBF2112F10600560C55 /* PBXContainerItemProxy */;
+		};
+		F1C75ECB2112F10700560C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C75EA52112F10500560C55 /* QiCodeStandard */;
+			targetProxy = F1C75ECA2112F10700560C55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F1C75ED02112F10700560C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1C75ED12112F10700560C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C75ED32112F10700560C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3WAJB85GP;
+				INFOPLIST_FILE = QiCodeStandard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.lsq.QiCodeStandard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F1C75ED42112F10700560C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3WAJB85GP;
+				INFOPLIST_FILE = QiCodeStandard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.lsq.QiCodeStandard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F1C75ED62112F10700560C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3WAJB85GP;
+				INFOPLIST_FILE = QiCodeStandardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.lsq.QiCodeStandardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiCodeStandard.app/QiCodeStandard";
+			};
+			name = Debug;
+		};
+		F1C75ED72112F10700560C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3WAJB85GP;
+				INFOPLIST_FILE = QiCodeStandardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.lsq.QiCodeStandardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiCodeStandard.app/QiCodeStandard";
+			};
+			name = Release;
+		};
+		F1C75ED92112F10700560C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3WAJB85GP;
+				INFOPLIST_FILE = QiCodeStandardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.lsq.QiCodeStandardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QiCodeStandard;
+			};
+			name = Debug;
+		};
+		F1C75EDA2112F10700560C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3WAJB85GP;
+				INFOPLIST_FILE = QiCodeStandardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.lsq.QiCodeStandardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QiCodeStandard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C75EA12112F10500560C55 /* Build configuration list for PBXProject "QiCodeStandard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C75ED02112F10700560C55 /* Debug */,
+				F1C75ED12112F10700560C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C75ED22112F10700560C55 /* Build configuration list for PBXNativeTarget "QiCodeStandard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C75ED32112F10700560C55 /* Debug */,
+				F1C75ED42112F10700560C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C75ED52112F10700560C55 /* Build configuration list for PBXNativeTarget "QiCodeStandardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C75ED62112F10700560C55 /* Debug */,
+				F1C75ED72112F10700560C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C75ED82112F10700560C55 /* Build configuration list for PBXNativeTarget "QiCodeStandardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C75ED92112F10700560C55 /* Debug */,
+				F1C75EDA2112F10700560C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C75E9E2112F10500560C55 /* Project object */;
+}
