@@ -50,14 +50,12 @@
     CGFloat MaxHeight = self.contentView.frame.size.height;
     CGFloat MaxWidth = self.contentView.frame.size.width;
     
-    _iconView.frame = CGRectMake(margin, margin, 35, 35);
+    _iconView.frame = CGRectMake(margin, margin, 35.0, 35.0);
     _iconView.layer.cornerRadius = _iconView.frame.size.width / 2;
     _iconView.layer.masksToBounds = YES;
     
-    [_titleLabel sizeToFit];
     _titleLabel.frame = CGRectMake(_iconView.frame.origin.x + _iconView.frame.size.width + padding, .0, 60.0, MaxHeight);
     
-    [_detailLabel sizeToFit];
     _detailLabel.frame = CGRectMake(_titleLabel.frame.origin.x + _titleLabel.frame.size.width + padding, MaxHeight * 0.5, MaxWidth - _titleLabel.frame.size.width - padding * 2 - margin *2, MaxHeight * 0.5);
 }
 

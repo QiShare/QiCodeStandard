@@ -9,7 +9,7 @@
 #import "QiMineViewController.h"
 #import "QiMineCell.h"
 
-static NSString *mineCellId = @"mineCellId";
+static NSString * const mineCellId = @"mineCellId";
 
 @interface QiMineViewController () <UITableViewDataSource, UITableViewDelegate>
 
