@@ -9,5 +9,6 @@
 #ifndef QiUtils_h
 #define QiUtils_h
 
+#define QiNotificationNameLoginScceed @"QiNotificationNameLoginScceed"
 
 #endif /* QiUtils_h */
