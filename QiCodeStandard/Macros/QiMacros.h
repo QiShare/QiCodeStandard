@@ -9,4 +9,7 @@
 #ifndef QiMacros_h
 #define QiMacros_h
 
+//! 登录成功后的消息
+static NSString * const QiNotificationNameLoginSucceed = @"QiNotificationNameLoginSucceed";
+
 #endif /* QiMacros_h */

@@ -11,6 +11,6 @@
 
 @interface QiMineCell : UITableViewCell
 
-@property (nonatomic, strong) QiMineData *cellData;
+@property (nonatomic, strong) QiMineData *cellData;//!< cell的数据model实例
 
 @end

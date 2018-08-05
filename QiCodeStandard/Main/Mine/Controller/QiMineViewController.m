@@ -8,15 +8,16 @@
 
 #import "QiMineViewController.h"
 #import "QiMineCell.h"
+#import "QiMacros.h"
 
 static NSString * const mineCellId = @"mineCellId";
 
 @interface QiMineViewController () <UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, strong) UIView *headView;
-@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) UIView *headView;//!< annotation
+@property (nonatomic, strong) UITableView *tableView;//!< annotation
 
-@property (nonatomic, copy) NSArray<QiMineData *> *cellDatas;
+@property (nonatomic, copy) NSArray<QiMineData *> *cellDatas;//!< annotation
 
 @end
 
@@ -37,7 +38,7 @@ static NSString * const mineCellId = @"mineCellId";
 
 - (void)setupHeadView {
     
-    _headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 60)];
+    _headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 60.0)];
     _headView.backgroundColor = [UIColor grayColor];
     [self.view addSubview:_headView];
 }
@@ -86,12 +87,13 @@ static NSString * const mineCellId = @"mineCellId";
 
 #pragma mark - Request functions
 
-- (NSArray *)getCellDatas {//这里模仿网络请求成功
+//! 这里模仿网络请求成功
+- (NSArray *)getCellDatas {
     
     QiMineData *data = [[QiMineData alloc] initWithDic:@{@"title": @"QiShare", @"detail": @"Hello,everyone!"}];
     
     NSMutableArray<QiMineData *> *datas = [NSMutableArray array];
-    for (int i=0; i<20; i++) {
+    for (int i = 0; i < 20; i++) {
         [datas addObject:data];
     }
     

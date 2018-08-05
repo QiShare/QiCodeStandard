@@ -8,10 +8,6 @@
 
 #import "QiPartNViewController.h"
 
-@interface QiPartNViewController ()
-
-@end
-
 @implementation QiPartNViewController
 
 @end

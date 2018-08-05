@@ -41,6 +41,7 @@
 		06197C4721143AA60010A331 /* QiNetworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiNetworks.h; sourceTree = "<group>"; };
 		06197C4821143AB10010A331 /* QiVendors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiVendors.h; sourceTree = "<group>"; };
 		06197C4921143ABB0010A331 /* QiUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiUtils.h; sourceTree = "<group>"; };
+		06197C4B2116C7190010A331 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F1C75EA62112F10500560C55 /* QiCodeStandard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiCodeStandard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C75EA92112F10500560C55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1C75EAA2112F10500560C55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		F1C75EB82112F10600560C55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1C75EBE2112F10600560C55 /* QiCodeStandardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiCodeStandardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C75EC92112F10700560C55 /* QiCodeStandardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiCodeStandardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1C75EE12112F28600560C55 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F1C75EEB21130A6C00560C55 /* QiBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiBaseViewController.h; sourceTree = "<group>"; };
 		F1C75EEC21130A6C00560C55 /* QiBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiBaseViewController.m; sourceTree = "<group>"; };
 		F1C75EEE21130A8B00560C55 /* QiMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiMineViewController.h; sourceTree = "<group>"; };
@@ -126,8 +126,8 @@
 				F1C75EE02112F17B00560C55 /* Utils */,
 				F1C75EB22112F10600560C55 /* Assets.xcassets */,
 				F1C75EB72112F10600560C55 /* Info.plist */,
-				F1C75EE12112F28600560C55 /* PrefixHeader.pch */,
 				F1C75EB82112F10600560C55 /* main.m */,
+				06197C4B2116C7190010A331 /* PrefixHeader.pch */,
 			);
 			path = QiCodeStandard;
 			sourceTree = "<group>";
