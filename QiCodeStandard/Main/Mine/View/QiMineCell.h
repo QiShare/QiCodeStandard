@@ -2,7 +2,7 @@
 //  QiMineCell.h
 //  QiCodeStandard
 //
-//  Created by liusiqi on 2018/8/2.
+//  Created by QiShare on 2018/8/2.
 //  Copyright © 2018年 QiShare. All rights reserved.
 //
 
@@ -11,6 +11,6 @@
 
 @interface QiMineCell : UITableViewCell
 
-@property (nonatomic, strong) QiMineData *cellData;
+@property (nonatomic, strong) QiMineData *cellData;//!< cell的数据model实例
 
 @end

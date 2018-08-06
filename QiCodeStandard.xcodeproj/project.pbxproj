@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06197C4621143A970010A331 /* QiPartNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06197C4521143A970010A331 /* QiPartNViewController.m */; };
 		F1C75EAB2112F10500560C55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C75EAA2112F10500560C55 /* AppDelegate.m */; };
 		F1C75EB32112F10600560C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C75EB22112F10600560C55 /* Assets.xcassets */; };
 		F1C75EB92112F10600560C55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C75EB82112F10600560C55 /* main.m */; };
@@ -34,6 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06197C4321143A840010A331 /* QiManagers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiManagers.h; sourceTree = "<group>"; };
+		06197C4421143A970010A331 /* QiPartNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiPartNViewController.h; sourceTree = "<group>"; };
+		06197C4521143A970010A331 /* QiPartNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiPartNViewController.m; sourceTree = "<group>"; };
+		06197C4721143AA60010A331 /* QiNetworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiNetworks.h; sourceTree = "<group>"; };
+		06197C4821143AB10010A331 /* QiVendors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiVendors.h; sourceTree = "<group>"; };
+		06197C4921143ABB0010A331 /* QiUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiUtils.h; sourceTree = "<group>"; };
+		06197C4B2116C7190010A331 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F1C75EA62112F10500560C55 /* QiCodeStandard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiCodeStandard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C75EA92112F10500560C55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1C75EAA2112F10500560C55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,7 +50,6 @@
 		F1C75EB82112F10600560C55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1C75EBE2112F10600560C55 /* QiCodeStandardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiCodeStandardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C75EC92112F10700560C55 /* QiCodeStandardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiCodeStandardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1C75EE12112F28600560C55 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F1C75EEB21130A6C00560C55 /* QiBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiBaseViewController.h; sourceTree = "<group>"; };
 		F1C75EEC21130A6C00560C55 /* QiBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiBaseViewController.m; sourceTree = "<group>"; };
 		F1C75EEE21130A8B00560C55 /* QiMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiMineViewController.h; sourceTree = "<group>"; };
@@ -79,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06197C3F21143A500010A331 /* PartN */ = {
+			isa = PBXGroup;
+			children = (
+				06197C4421143A970010A331 /* QiPartNViewController.h */,
+				06197C4521143A970010A331 /* QiPartNViewController.m */,
+			);
+			path = PartN;
+			sourceTree = "<group>";
+		};
 		F1C75E9D2112F10500560C55 = {
 			isa = PBXGroup;
 			children = (
@@ -106,8 +122,8 @@
 				F1C75EDF2112F16D00560C55 /* Macros */,
 				F1C75EB22112F10600560C55 /* Assets.xcassets */,
 				F1C75EB72112F10600560C55 /* Info.plist */,
-				F1C75EE12112F28600560C55 /* PrefixHeader.pch */,
 				F1C75EB82112F10600560C55 /* main.m */,
+				06197C4B2116C7190010A331 /* PrefixHeader.pch */,
 			);
 			path = QiCodeStandard;
 			sourceTree = "<group>";
@@ -116,15 +132,39 @@
 			isa = PBXGroup;
 			children = (
 				F1C75EE22112F31000560C55 /* Base */,
-				F1C75EE32112F31900560C55 /* Login */,
-				F1C75EE52112F32900560C55 /* Module1 */,
-				F1C75EE62112F35E00560C55 /* Module2 */,
-				F1C75EE72112F39100560C55 /* Module3 */,
 				F1C75EE42112F31F00560C55 /* Mine */,
+				06197C3F21143A500010A331 /* PartN */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		F1C75EDC2112F14900560C55 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				06197C4321143A840010A331 /* QiManagers.h */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F1C75EDD2112F15600560C55 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				06197C4721143AA60010A331 /* QiNetworks.h */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		F1C75EDE2112F15E00560C55 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				06197C4821143AB10010A331 /* QiVendors.h */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+>>>>>>> cdce06315e6c38b5e22c299a530d253dcd8dc440
 		F1C75EDF2112F16D00560C55 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +173,17 @@
 			path = Macros;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		F1C75EE02112F17B00560C55 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				06197C4921143ABB0010A331 /* QiUtils.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+>>>>>>> cdce06315e6c38b5e22c299a530d253dcd8dc440
 		F1C75EE22112F31000560C55 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,13 +191,6 @@
 				F1C75EEC21130A6C00560C55 /* QiBaseViewController.m */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		F1C75EE32112F31900560C55 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Login;
 			sourceTree = "<group>";
 		};
 		F1C75EE42112F31F00560C55 /* Mine */ = {
@@ -157,51 +201,6 @@
 				F1C75EF721130B5B00560C55 /* Controller */,
 			);
 			path = Mine;
-			sourceTree = "<group>";
-		};
-		F1C75EE52112F32900560C55 /* Module1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Module1;
-			sourceTree = "<group>";
-		};
-		F1C75EE62112F35E00560C55 /* Module2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Module2;
-			sourceTree = "<group>";
-		};
-		F1C75EE72112F39100560C55 /* Module3 */ = {
-			isa = PBXGroup;
-			children = (
-				F1C75EEA2112F47A00560C55 /* Model */,
-				F1C75EE92112F40D00560C55 /* View */,
-				F1C75EE82112F3F900560C55 /* Controller */,
-			);
-			path = Module3;
-			sourceTree = "<group>";
-		};
-		F1C75EE82112F3F900560C55 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		F1C75EE92112F40D00560C55 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F1C75EEA2112F47A00560C55 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		F1C75EF721130B5B00560C55 /* Controller */ = {
@@ -360,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1C75EB92112F10600560C55 /* main.m in Sources */,
+				06197C4621143A970010A331 /* QiPartNViewController.m in Sources */,
 				F1C75EAB2112F10500560C55 /* AppDelegate.m in Sources */,
 				F1C75EED21130A6C00560C55 /* QiBaseViewController.m in Sources */,
 				F1C75EF321130B2A00560C55 /* QiMineCell.m in Sources */,

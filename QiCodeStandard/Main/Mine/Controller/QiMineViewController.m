@@ -2,21 +2,22 @@
 //  QiMineViewController.m
 //  QiCodeStandard
 //
-//  Created by liusiqi on 2018/8/2.
+//  Created by QiShare on 2018/8/2.
 //  Copyright © 2018年 QiShare. All rights reserved.
 //
 
 #import "QiMineViewController.h"
 #import "QiMineCell.h"
+#import "QiMacros.h"
 
-static NSString *mineCellId = @"mineCellId";
+static NSString * const mineCellId = @"mineCellId";
 
 @interface QiMineViewController () <UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, strong) UIView *headView;
-@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) UIView *headView;//!< annotation
+@property (nonatomic, strong) UITableView *tableView;//!< annotation
 
-@property (nonatomic, copy) NSArray<QiMineData *> *cellDatas;
+@property (nonatomic, copy) NSArray<QiMineData *> *cellDatas;//!< annotation
 
 @end
 
@@ -37,7 +38,7 @@ static NSString *mineCellId = @"mineCellId";
 
 - (void)setupHeadView {
     
-    _headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 60)];
+    _headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 60.0)];
     _headView.backgroundColor = [UIColor grayColor];
     [self.view addSubview:_headView];
 }
@@ -86,12 +87,13 @@ static NSString *mineCellId = @"mineCellId";
 
 #pragma mark - Request functions
 
-- (NSArray *)getCellDatas {//这里模仿网络请求成功
+//! 这里模仿网络请求成功
+- (NSArray *)getCellDatas {
     
     QiMineData *data = [[QiMineData alloc] initWithDic:@{@"title": @"QiShare", @"detail": @"Hello,everyone!"}];
     
     NSMutableArray<QiMineData *> *datas = [NSMutableArray array];
-    for (int i=0; i<20; i++) {
+    for (int i = 0; i < 20; i++) {
         [datas addObject:data];
     }
     
@@ -121,7 +123,7 @@ static NSString *mineCellId = @"mineCellId";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     
-    return 50.0;
+    return CGFLOAT_MIN;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
@@ -136,7 +138,7 @@ static NSString *mineCellId = @"mineCellId";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSLog(@"QiShare提醒您，您点击了%ld个cell",(long)indexPath.row);
+    NSLog(@"QiShare提醒您，您点的cell的index为%li", (long)indexPath.row);
 }
 
 @end
