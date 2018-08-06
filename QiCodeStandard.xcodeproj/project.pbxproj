@@ -103,11 +103,7 @@
 				F1C75EA92112F10500560C55 /* AppDelegate.h */,
 				F1C75EAA2112F10500560C55 /* AppDelegate.m */,
 				F1C75EDB2112F12300560C55 /* Main */,
-				F1C75EDC2112F14900560C55 /* Managers */,
-				F1C75EDD2112F15600560C55 /* Networks */,
-				F1C75EDE2112F15E00560C55 /* Vendors */,
 				F1C75EDF2112F16D00560C55 /* Macros */,
-				F1C75EE02112F17B00560C55 /* Utils */,
 				F1C75EB22112F10600560C55 /* Assets.xcassets */,
 				F1C75EB72112F10600560C55 /* Info.plist */,
 				F1C75EE12112F28600560C55 /* PrefixHeader.pch */,
@@ -129,40 +125,12 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		F1C75EDC2112F14900560C55 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		F1C75EDD2112F15600560C55 /* Networks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Networks;
-			sourceTree = "<group>";
-		};
-		F1C75EDE2112F15E00560C55 /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendors;
-			sourceTree = "<group>";
-		};
 		F1C75EDF2112F16D00560C55 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
 				F1C75EFA211315F700560C55 /* QiMacros.h */,
 			);
 			path = Macros;
-			sourceTree = "<group>";
-		};
-		F1C75EE02112F17B00560C55 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		F1C75EE22112F31000560C55 /* Base */ = {
