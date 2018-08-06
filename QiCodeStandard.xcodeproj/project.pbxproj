@@ -138,8 +138,6 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
 		F1C75EDC2112F14900560C55 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +162,6 @@
 			path = Vendors;
 			sourceTree = "<group>";
 		};
->>>>>>> cdce06315e6c38b5e22c299a530d253dcd8dc440
 		F1C75EDF2112F16D00560C55 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,8 +170,6 @@
 			path = Macros;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
 		F1C75EE02112F17B00560C55 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,7 +178,6 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
->>>>>>> cdce06315e6c38b5e22c299a530d253dcd8dc440
 		F1C75EE22112F31000560C55 /* Base */ = {
 			isa = PBXGroup;
 			children = (
